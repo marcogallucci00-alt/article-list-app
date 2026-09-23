@@ -72,7 +72,7 @@ export default function ArticleInfoPage() {
     <Grid>
       <Column lg={16} md={8} sm={4} style={{ marginBottom: '1rem' }}>
         <Breadcrumb noTrailingSlash>
-          <BreadcrumbItem href="/">Articoli</BreadcrumbItem>
+          <BreadcrumbItem href="#/">Articoli</BreadcrumbItem>
           <BreadcrumbItem isCurrentPage>Informazioni articolo</BreadcrumbItem>
         </Breadcrumb>
       </Column>

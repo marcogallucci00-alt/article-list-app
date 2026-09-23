@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import { Content, Theme } from '@carbon/react';
 import ArticleListPage  from './pages/ArticleListPage';
 import ArticleFormPage  from './pages/ArticleFormPage';
@@ -6,7 +6,7 @@ import ArticleInfoPage  from './pages/ArticleInfoPage';
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Theme theme="white">
         <Content>
           <Routes>
@@ -24,7 +24,7 @@ function App() {
           </Routes>
         </Content>
       </Theme>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
