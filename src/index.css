@@ -1,0 +1,6 @@
+/* Application-level overrides on top of Carbon styles.
+   Keep this file minimal — Carbon provides the full design system. */
+
+body {
+  background-color: #f4f4f4; /* Carbon Gray 10 */
+}

@@ -1,0 +1,33 @@
+{
+  "name": "article-list-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "homepage": "https://marcogallucci00-alt.github.io/article-list-app",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "oxlint",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "@carbon/react": "^1.116.0",
+    "@carbon/styles": "^1.115.0",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "react-router-dom": "^7.18.4",
+    "sass": "^1.105.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.13.3",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
+    "@vitejs/plugin-react": "^6.1.1",
+    "gh-pages": "^6.3.0",
+    "oxlint": "^1.81.0",
+    "typescript": "~6.0.2",
+    "vite": "^8.3.0"
+  }
+}
